@@ -64,17 +64,17 @@ class Header extends Component {
           </Navbar.Header>
 
           <Navbar.Collapse className="pull-left">
-            <Navbar.Text style={{ 'font-size': '30px' }}>
+            <Navbar.Text style={{ 'fontSize': '30px' }}>
               Geospaitial Database Viewer
             </Navbar.Text>
             <br/>
-            <Navbar.Text style={{ 'font-size': '15px' }}>
+            <Navbar.Text style={{ 'fontSize': '15px' }}>
               Natural Resources Department, Kalispel Tribe of Indians
             </Navbar.Text>
 
           </Navbar.Collapse>
           <Navbar.Collapse className="pull-left" >
-            <p style={{'color':'white'}}>{this.state.keylist[number]}</p>
+            <div style={{'color':'white'}}>{this.state.keylist[number]}</div>
           </Navbar.Collapse>
           <Nav className="pull-left" bsStyle="pills" >
             <NavDropdown activeKey={this.state.key} onSelect={this.handleSelect} title="BaseMap Selection" id="basic-nav-dropdown">
