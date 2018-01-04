@@ -1,11 +1,23 @@
 {
-  "name": "archgislayers",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "axios": "^0.17.1",
+    "bootstrap": "^3.3.7",
+    "esri-loader": "^1.5.0",
+    "esri-loader-react": "^2.0.0-beta.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-arcgis": "^3.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "reactjs-localstorage": "0.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

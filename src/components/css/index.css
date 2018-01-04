@@ -1,0 +1,86 @@
+body {
+  /* margin: 20px;
+  padding: 20px; */
+  font-family: sans-serif;
+  background: rgba(61, 48, 31, 0.904);
+}
+
+.LandingPage {
+  height: 100vh;
+  width: 100vw;
+ }
+
+ /* EVERYTHING in HEADER STYLES */
+ .Header
+ {
+  width: 100%;
+ }
+
+ nav.navbar.navbar-default
+ {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 30px;
+   background: rgba(61, 48, 31, 0.904);
+   /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+   /* filter: alpha(opacity=50);  IE 5-7 */
+   /* -moz-opacity: 0.5;          Netscape */
+   /* -khtml-opacity: 0.5;        Safari 1.x */
+   /* opacity: 0.5;               Good browsers */
+   margin-bottom: 0px;
+ }
+
+ div.pull-left.navbar-header{
+  overflow: hidden;
+  height: 20vh;
+ }
+
+ div.navbar-brand{
+  height: 100%;
+  widows: 30%;
+  padding: 0 !important;
+  margin: 0 !important;
+ }
+
+ .Logo{
+  height: 100%;
+ }
+
+ div.navbar-collapse.pull-left.collapse
+{
+  overflow: hidden;
+  height: 20vh !important;
+
+}
+
+p.navbar-text{
+  color: white !important;
+}
+
+a#basic-nav-dropdown.dropdown-toggle{
+  color: white;
+  overflow: visible;
+
+}
+
+ul.dropdown-menu{
+  /* background: rgba(61, 48, 31, 0.904); */
+  color: white;
+}
+
+
+
+/* EVERYTHING in MAP STYLES */
+ .App{
+  height: 70vh;
+  width: 100%;
+ }
+
+.container{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+

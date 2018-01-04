@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import LMap from './components/map/Map';
+import Header from './components/header/header';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+  constructor(props) {
+    super(props);
+    this.state = {
+      BaseMap: props.SuperSetBaseMap,
+      CurrenBaseMap: props.SuperMap
+    }
+    console.log(this.props)
   }
-}
 
+  render() {
+    console.log(this.props.SuperMap);
+        return (
+        <div className="LandingPage">
+          <Header SuperSetBaseMap = {this.state.BaseMap}/>
+          <LMap callbackFromApp={this.latLongCallback} SuperMap = {this.state.CurrenBaseMap}/>
+        </div>
+      );
+    }
+  }
 export default App;
+
+
